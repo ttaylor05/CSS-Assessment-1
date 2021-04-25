@@ -1,0 +1,73 @@
+@media screen and (max-width: 360px) {
+    body {
+        background-color: hsl(257, 40%, 49%);
+        background-image: url("bg-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: contain;    
+    }
+    .logo {
+        width: 100px;
+        height: 25px;
+        margin: 25 vpx;
+        padding-top: 10px;
+        padding-left: 15px;
+    } 
+    .main-entire {
+        display:grid;
+    }
+    .container-grid {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 30px;
+    }
+    
+    .picture {
+        width: 50%;
+    }    
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: #fff;
+        padding-left: 10px;
+        margin: 0;
+    }
+    .content h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    h1 {
+        margin: 40px;
+        margin-bottom: 100px;
+        text-align: left;
+    }
+    .content p {
+        font-size: .8em;
+        font-weight: 400;
+    }
+    p {
+        margin-top: -100px;
+        text-align: center;
+    }
+    
+    .content button {
+        border: none;
+        border-radius: 1em;
+        padding: 0;
+        background-color: #fff;
+        font-size: .5em;
+        color: hsl(300, 69%, 71%);
+    }
+    .icons {
+        padding-top: 0;
+        padding-left: 0;
+        color: #fff;
+        font-size: 10px;
+        align-content: space-between;
+        border: 1px #fff;
+        border-radius: 20%;
+    } 
+}
+    
